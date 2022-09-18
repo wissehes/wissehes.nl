@@ -1,6 +1,6 @@
 baseURL = 'https://wissehes.nl/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Wisse'
 theme = 'terminal'
 
 [params]
@@ -12,16 +12,15 @@ theme = 'terminal'
   [languages.nl]
     languageName = "Nederlands"
     title = "Wisse Hes"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "Wisse's website"
     keywords = ""
     copyright = "&#169; Wisse Hes 2022"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    menuMore = "Laat meer zien"
+    readMore = "Lees meer"
+    readOtherPosts = "Andere berichten"
+    newerPosts = "Nieuwere berichten"
+    olderPosts = "Oudere berichten"
+    tocTitle = "Inhoud"
 
   [languages.en]
     languageName = "English"
@@ -42,6 +41,10 @@ theme = 'terminal'
       logoText = "Wisse Hes"
       logoHomeLink = "/"
 
+    [languages.nl.params.logo]
+      logoText = "Wisse Hes"
+      logoHomeLink = "/nl"
+
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "Ahome"
@@ -55,6 +58,10 @@ theme = 'terminal'
         identifier = "skills"
         name = "Skills"
         url = "/skills"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
 
     [languages.nl.menu]
       [[languages.nl.menu.main]]
@@ -69,3 +76,7 @@ theme = 'terminal'
         identifier = "ervaring"
         name = "Ervaring"
         url = "/nl/skills"
+      [[languages.nl.menu.main]]
+        identifier = "projecten"
+        name = "Projecten"
+        url = "/nl/projects"
