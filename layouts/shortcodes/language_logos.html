@@ -1,0 +1,21 @@
+{{ $js := resources.GetMatch "skills/js_logo.png" }}
+{{ $ts := resources.GetMatch "skills/ts_logo.png" }}
+{{ $swift := resources.GetMatch "skills/swift.png" }}
+
+
+<style>
+    .logocontainer {
+        display: flex;
+    }
+
+    .logoitem {
+        margin: 1vh;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="logocontainer">
+    <img src="{{ $js.RelPermalink }}" class="logoitem" width="50" height="50">
+    <img src="{{ $ts.RelPermalink }}" class="logoitem" width="50" height="50">
+    <img src="{{ $swift.RelPermalink }}" class="logoitem" width="50" height="50">
+</div>

@@ -1,0 +1,26 @@
+{{ $react := resources.GetMatch "skills/react.png" }}
+{{ $next := resources.GetMatch "skills/nextjs.png" }}
+{{ $expo := resources.GetMatch "skills/expo.png" }}
+{{ $vue := resources.GetMatch "skills/vue.png" }}
+{{ $swiftui := resources.GetMatch "skills/swiftui.png" }}
+
+
+
+<style>
+    .logocontainer {
+        display: flex;
+    }
+
+    .logoitem {
+        margin: 1vh;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="logocontainer">
+    <img src="{{ $react.RelPermalink }}" class="logoitem" width="50" height="50">
+    <img src="{{ $next.RelPermalink }}" class="logoitem" height="50">
+    <img src="{{ $expo.RelPermalink }}" class="logoitem" height="50">
+    <img src="{{ $vue.RelPermalink }}" class="logoitem" width="50" height="50">
+    <img src="{{ $swiftui.RelPermalink }}" class="logoitem" width="50" height="50">
+</div>

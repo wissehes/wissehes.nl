@@ -1,0 +1,71 @@
+baseURL = 'http://wissehes.nl/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'terminal'
+
+[params]
+    themeColor = "blue"
+    showLanguageSelector = true
+    favicon = "favicon.ico"
+
+[languages]
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Wisse Hes"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = "&#169; Wisse Hes 2022"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+  [languages.en]
+    languageName = "English"
+    title = "Wisse Hes"
+    subtitle = "Wisse's website"
+    keywords = ""
+    copyright = "&#169; Wisse Hes 2022"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+
+    [languages.en.params.logo]
+      logoText = "Wisse Hes"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "Ahome"
+        name = "Home"
+        url = "/"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "/skills"
+
+    [languages.nl.menu]
+      [[languages.nl.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/nl"
+      [[languages.nl.menu.main]]
+        identifier = "over"
+        name = "Over"
+        url = "/nl/about"
+      [[languages.nl.menu.main]]
+        identifier = "ervaring"
+        name = "Ervaring"
+        url = "/nl/skills"
