@@ -31,7 +31,7 @@ Ik heb JavaScript gebruikt voor de meeste projecten tot nu toe. Ik ben nu ook be
 * Visual Studio Code
 * XCode
 
-# Talen
+## Talen
 
 * Nederlands (moedertaal)
 * Engels (geleerd, vloeiend)
