@@ -62,6 +62,10 @@ theme = 'terminal'
         identifier = "projects"
         name = "Projects"
         url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
 
     [languages.nl.menu]
       [[languages.nl.menu.main]]
@@ -80,3 +84,7 @@ theme = 'terminal'
         identifier = "projecten"
         name = "Projecten"
         url = "/nl/projects"
+      [[languages.nl.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/nl/contact"
