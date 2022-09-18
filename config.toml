@@ -1,4 +1,4 @@
-baseURL = 'http://wissehes.nl/'
+baseURL = 'https://wissehes.nl/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'terminal'
