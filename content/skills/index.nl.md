@@ -31,6 +31,14 @@ Ik heb JavaScript gebruikt voor de meeste projecten tot nu toe. Ik ben nu ook be
 * Visual Studio Code
 * XCode
 
+## 💻 Andere computerdingen
+
+* macOS
+* Ubuntu (desktop/server)
+* Debian
+
+Ik doe al mijn programmeerwerk op m'n macbook. Ik heb ook een Mac Mini als home server (voor home assistant, docker, jellyfin, lokale dns, etc.). Ik vind ubuntu toch fijner voor servers... Daarom heb ik ook een virtuele machine met ubuntu, voor m'n vpn.
+
 ## Talen
 
 * Nederlands (moedertaal)

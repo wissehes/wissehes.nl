@@ -32,7 +32,15 @@ I've used javascript for most of my projects until now. I've also began learning
 * XCode
 
 I use VSCode for basically all programming I do, except for when I'm working with Swift. Then I use Xcode.
-  
+
+## 💻 Other computer stuff
+
+* macOS
+* Ubuntu (desktop/server)
+* Debian
+
+I do all my programming on my macbook, and I've been using macs for a long time. I'm also using a Mac Mini running macOS as home server (home assistant, docker, jellyfin, dns, etc.). Ubuntu is nicer for running servers though... Beceause of that, i'm also running an ubuntu virtual machine on it for running things like my vpn.
+
 ## Languages
 
 * Dutch (native)
