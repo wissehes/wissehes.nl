@@ -1,0 +1,8 @@
+.logocontainer {
+  display: flex;
+}
+
+.logoitem {
+  margin: 1vh;
+  border-radius: 5px;
+}
