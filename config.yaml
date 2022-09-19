@@ -1,0 +1,116 @@
+baseURL: 'https://wissehes.nl/'
+languageCode: 'en-us'
+title: 'Wisse'
+theme: 'PaperMod'
+
+params:
+  # themeColor: blue
+  # showLanguageSelector: true
+  # favicon: favicon.ico
+  # autoCover: false
+  enableEmoji: true
+  displayFullLangName: true
+  profileMode:
+      enabled: true
+      title: "Wisse Hes" # optional default will be site title
+      # subtitle: "This is subtitle"
+      # imageUrl: "<image link>" # optional
+      # imageTitle: "<title of image as alt>" # optional
+      # imageWidth: 120 # custom size
+      # imageHeight: 120 # custom size
+      buttons:
+        - name: Posts
+          url: "/posts"
+        - name: Projects
+          url: "/projects"
+        - name: About me
+          url: "/about"
+
+  socialIcons: # optional
+    - name: "Instagram"
+      url: "https://instagram.com/wissehes_"
+    - name: "GitHub"
+      url: "https://github.com/wissehes"
+    - name: "Lastfm"
+      url: "https://last.fm/user/wissehes"
+
+languages:
+  nl:
+    languageName: 'Nederlands 🇳🇱'
+    languageAltTitle: Dutch
+    title: "Wisse Hes"
+    subtitle: "Wisse's website"
+    keywords: ""
+    copyright: "&#169; Wisse Hes 2022"
+    menuMore: "Laat meer zien"
+    readMore: "Lees meer"
+    readOtherPosts: "Andere berichten"
+    newerPosts: "Nieuwere berichten"
+    olderPosts: "Oudere berichten"
+    tocTitle: "Inhoud"
+    params:
+      logo:
+        logoText: "Wisse Hes"
+        logoHomeLink: "/nl/"
+    menu:
+      main:
+        - identifier: "home"
+          name: Home
+          url: "/nl"
+          weight: 1
+        - identifier: over
+          name: Over
+          url: "/nl/about"
+          weight: 2
+        - identifier: ervaring
+          name: Ervaring
+          url: "/skills"
+          weight: 3
+        - identifier: projecten
+          name: "Projecten"
+          url: "/nl/projects"
+          weight: 4
+        - identifier: contact
+          name: "Contact"
+          url: "/nl/contact"
+          weight: 5
+
+  en:
+    languageName: "English 🇬🇧"
+    title: "Wisse Hes"
+    subtitle: "Wisse's website"
+    keywords: ""
+    copyright: "&#169; Wisse Hes 2022"
+    menuMore: "Show more"
+    readMore: "Read more"
+    readOtherPosts: "Read other posts"
+    newerPosts: "Newer posts"
+    olderPosts: "Older posts"
+    missingContentMessage: "Page not found..."
+    missingBackButtonLabel: "Back to home page"
+    params:
+      logo:
+        logoText: "Wisse Hes"
+        logoHomeLink: "/"
+    menu:
+      main:
+        - identifier: "home"
+          name: Home
+          url: "/"
+          weight: 1
+        - identifier: about
+          name: About
+          url: "/about"
+          weight: 2
+        - identifier: skills
+          name: Skills
+          url: "/skills"
+          weight: 3
+        - identifier: projects
+          name: "Projects"
+          url: "/projects"
+          weight: 4
+        - identifier: contact
+          name: "Contact"
+          url: "/contact"
+          weight: 5
