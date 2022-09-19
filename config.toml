@@ -7,10 +7,11 @@ theme = 'terminal'
     themeColor = "blue"
     showLanguageSelector = true
     favicon = "favicon.ico"
+    autoCover = false
 
 [languages]
   [languages.nl]
-    languageName = "Nederlands"
+    languageName = "Nederlands 🇳🇱"
     title = "Wisse Hes"
     subtitle = "Wisse's website"
     keywords = ""
@@ -23,7 +24,7 @@ theme = 'terminal'
     tocTitle = "Inhoud"
 
   [languages.en]
-    languageName = "English"
+    languageName = "English 🇬🇧"
     title = "Wisse Hes"
     subtitle = "Wisse's website"
     keywords = ""
@@ -47,44 +48,54 @@ theme = 'terminal'
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "Ahome"
+        identifier = "home"
         name = "Home"
         url = "/"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "skills"
         name = "Skills"
         url = "/skills"
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects"
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/contact"
+        weight = 5
 
     [languages.nl.menu]
       [[languages.nl.menu.main]]
         identifier = "home"
         name = "Home"
         url = "/nl"
+        weight = 1
       [[languages.nl.menu.main]]
         identifier = "over"
         name = "Over"
         url = "/nl/about"
+        weight = 2
       [[languages.nl.menu.main]]
         identifier = "ervaring"
         name = "Ervaring"
         url = "/nl/skills"
+        weight = 3
       [[languages.nl.menu.main]]
         identifier = "projecten"
         name = "Projecten"
         url = "/nl/projects"
+        weight = 4
       [[languages.nl.menu.main]]
         identifier = "contact"
         name = "Contact"
         url = "/nl/contact"
+        weight = 5
