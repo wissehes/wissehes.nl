@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.02231,0,0,1,-11.1566,-2.4869e-14)">
+        <path d="M500,98.365C500,44.076 456.886,0 403.782,0L107.131,0C54.027,0 10.913,44.076 10.913,98.365L10.913,401.635C10.913,455.924 54.027,500 107.131,500L403.782,500C456.886,500 500,455.924 500,401.635L500,98.365Z" style="fill:rgb(214,214,214);"/>
+        <path d="M500,98.365C500,44.076 456.886,0 403.782,0L107.131,0C54.027,0 10.913,44.076 10.913,98.365L10.913,401.635C10.913,455.924 54.027,500 107.131,500L403.782,500C456.886,500 500,455.924 500,401.635L500,98.365ZM485.327,98.365L485.327,401.635C485.327,447.646 448.788,485 403.782,485L107.131,485C62.125,485 25.586,447.646 25.586,401.635L25.586,98.365C25.586,52.354 62.125,15 107.131,15L403.782,15C448.788,15 485.327,52.354 485.327,98.365Z" style="fill:rgb(32,96,255);"/>
+    </g>
+    <g transform="matrix(1.07862,0,0,1.07862,-14.5639,276.968)">
+        <text x="80.255px" y="83.574px" style="font-family:'Futura-Bold', 'Futura', sans-serif;font-weight:700;font-size:288px;fill:rgb(32,144,255);">W</text>
+    </g>
+</svg>
