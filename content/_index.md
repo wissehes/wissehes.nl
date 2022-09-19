@@ -2,17 +2,17 @@
 title: "Home"
 ---
 
-Welcome to my website!
+Welcome to my website! ✨
 
-[Posts](/posts) | [Projects](/projects)
+[➡️ Posts](/posts)  |  [➡️ Projects](/projects)  |  [➡️ About me](/about)
 
 **Socials:**
 
 * [Last.fm](https://last.fm/user/wissehes)
 * [Instagram](https://instagram.com/wissehes_)
 * [GitHub](https://github.com/wissehes)
-* Email: wisse [at] wissehes [dot] nl
+* 📧 Email: wisse [at] wissehes [dot] nl
 
 <br />
 
-* [Nederlandse Versie](/nl)
+* [🇳🇱 Nederlandse Versie](/nl)
