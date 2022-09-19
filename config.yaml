@@ -6,7 +6,7 @@ theme: 'PaperMod'
 params:
   # themeColor: blue
   # showLanguageSelector: true
-  # favicon: favicon.ico
+  favicon: favicon.ico
   # autoCover: false
   enableEmoji: true
   displayFullLangName: true
@@ -33,6 +33,8 @@ params:
       url: "https://github.com/wissehes"
     - name: "Lastfm"
       url: "https://last.fm/user/wissehes"
+    - name: "email"
+      url: "/contact"
 
 languages:
   nl:
