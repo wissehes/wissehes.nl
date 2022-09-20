@@ -1,7 +1,7 @@
 baseURL: 'https://wissehes.nl/'
 languageCode: 'en-us'
 title: 'Wisse'
-theme: 'PaperMod'
+theme: 'terminal'
 
 params:
   themeColor: blue
