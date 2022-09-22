@@ -5,7 +5,7 @@ draft: false
 ---
 
 <!-- ## Loulou's App -->
-![Loulou's App icon](loulousapp_icon.png)
+{{< image src="loulousapp_icon.png" alt="Loulou's App Icon" style="width: 200px" >}}
 
 | About        |                 |
 |--------------|-----------------|

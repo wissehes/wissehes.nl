@@ -1,7 +1,4 @@
 {{ $image := .Page.Resources.GetMatch .Destination }}
-{{ if gt $image.Width 200 }}
-{{ $image = $image.Resize "200x" }}
-{{ end }}
 <figure>
     <img src="{{ $image.RelPermalink | safeURL }}" {{ with .Text }} alt="{{ . }}" {{ end }} {{ with .Title }}
         title="{{ . }}" {{ end }} />

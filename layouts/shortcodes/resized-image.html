@@ -1,6 +1,7 @@
 {{ $imagename := (.Get 0) }}
 {{ $image := resources.GetMatch $imagename }}
-{{ $resized := $image.Resize "100x" }}
+{{ $resized := $image.Resize "200x" }}
+
 {{ with $resized }}
 <img src="{{ .RelPermalink }}" width="{{ div .Width 2 }}" height="{{ div .Height  2 }}">
 {{ end }}
