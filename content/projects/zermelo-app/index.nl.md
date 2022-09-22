@@ -6,7 +6,7 @@ draft: false
 
 <!-- ## Zermelo App -->
 
-Our school system (zermelo) didn't have an app (only a sluggish web app). So I wanted to see if I could make a proper iOS app for it. I first looked for any documentation on their API, which thankfully existed (unlike with magister...). I saw that their api is very simple to work with.
+[GitHub](https://github.com/wissehes/zermelo-app-ios)
 
 Mijn school gebruikt Zermelo om keuzeblokken in te vullen en om je rooster te kunnen zien. Zermelo heeft alleen geen native iOS app, dus wilde ik er een maken. Ik keek online even rond om te zien of Zermelo openbare api heeft. Gelukkig hebben zij wel een fatsoenlijke api (kuch kuch... magister).
 
